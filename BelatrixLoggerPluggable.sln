@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Logger Pluggable", "01 - Logger Pluggable", "{CBE38DBD-4434-4721-B709-347D8A5068B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Unit Test", "02 - Unit Test", "{7737680B-5883-4802-B1C1-EE14E81A5C19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application Example", "03 - Application Example", "{4B870CC4-52B6-4D60-961B-C9BB220272BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0101 - Logger", "0101 - Logger", "{1C89B058-6464-416B-AE17-4494E1C63BB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0102 - Logger File", "0102 - Logger File", "{8B16E37F-0B09-4ED9-970C-2F701453D1C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0103 - Logger DataBase", "0103 - Logger DataBase", "{61EF5A98-84C9-4182-A030-7517C78645A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0104 - Logger Console", "0104 - Logger Console", "{6CAC42BD-E266-4241-BCA9-0E104FA66F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable", "Belatrix.LoggerPluggable\Belatrix.LoggerPluggable.csproj", "{092F0499-9839-4E9E-998C-FC2FB48F907B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.Interfaces", "Belatrix.LoggerPluggable.Interfaces\Belatrix.LoggerPluggable.Interfaces.csproj", "{66C39CA2-1D0D-4215-BCE1-DB906F38585E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.Types", "Belatrix.LoggerPluggable.Types\Belatrix.LoggerPluggable.Types.csproj", "{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.LogManagerFile", "Belatrix.LoggerPluggable.LogManagerFile\Belatrix.LoggerPluggable.LogManagerFile.csproj", "{D9A9961D-F30F-43B1-BB99-12FE41A52BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.LogManagerDataBase", "Belatrix.LoggerPluggable.LogManagerDataBase\Belatrix.LoggerPluggable.LogManagerDataBase.csproj", "{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.LogManagerConsole", "Belatrix.LoggerPluggable.LogManagerConsole\Belatrix.LoggerPluggable.LogManagerConsole.csproj", "{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.ApplicationLog", "Belatrix.LoggerPluggable.ApplicationLog\Belatrix.LoggerPluggable.ApplicationLog.csproj", "{38ACFACE-8C46-4F60-9014-F97133336A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belatrix.LoggerPluggable.Test", "Belatrix.LoggerPluggable.Test\Belatrix.LoggerPluggable.Test.csproj", "{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092F0499-9839-4E9E-998C-FC2FB48F907B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F0499-9839-4E9E-998C-FC2FB48F907B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F0499-9839-4E9E-998C-FC2FB48F907B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F0499-9839-4E9E-998C-FC2FB48F907B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C39CA2-1D0D-4215-BCE1-DB906F38585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C39CA2-1D0D-4215-BCE1-DB906F38585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C39CA2-1D0D-4215-BCE1-DB906F38585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C39CA2-1D0D-4215-BCE1-DB906F38585E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A9961D-F30F-43B1-BB99-12FE41A52BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A9961D-F30F-43B1-BB99-12FE41A52BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A9961D-F30F-43B1-BB99-12FE41A52BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A9961D-F30F-43B1-BB99-12FE41A52BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ACFACE-8C46-4F60-9014-F97133336A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ACFACE-8C46-4F60-9014-F97133336A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ACFACE-8C46-4F60-9014-F97133336A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ACFACE-8C46-4F60-9014-F97133336A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C89B058-6464-416B-AE17-4494E1C63BB0} = {CBE38DBD-4434-4721-B709-347D8A5068B8}
+		{8B16E37F-0B09-4ED9-970C-2F701453D1C8} = {CBE38DBD-4434-4721-B709-347D8A5068B8}
+		{61EF5A98-84C9-4182-A030-7517C78645A2} = {CBE38DBD-4434-4721-B709-347D8A5068B8}
+		{6CAC42BD-E266-4241-BCA9-0E104FA66F6E} = {CBE38DBD-4434-4721-B709-347D8A5068B8}
+		{F4AE0722-FAF0-4E7F-B974-1E30BFB162D8} = {7737680B-5883-4802-B1C1-EE14E81A5C19}
+		{38ACFACE-8C46-4F60-9014-F97133336A1B} = {4B870CC4-52B6-4D60-961B-C9BB220272BE}
+		{092F0499-9839-4E9E-998C-FC2FB48F907B} = {1C89B058-6464-416B-AE17-4494E1C63BB0}
+		{66C39CA2-1D0D-4215-BCE1-DB906F38585E} = {1C89B058-6464-416B-AE17-4494E1C63BB0}
+		{3C45ED18-1BFC-42E0-82E3-EF3B61EF623F} = {1C89B058-6464-416B-AE17-4494E1C63BB0}
+		{D9A9961D-F30F-43B1-BB99-12FE41A52BD4} = {8B16E37F-0B09-4ED9-970C-2F701453D1C8}
+		{E9E3B2B7-95A7-4C40-B428-7C58FF7D77A5} = {61EF5A98-84C9-4182-A030-7517C78645A2}
+		{8EFEBED1-9675-40EC-A2DA-703C4FB3FD09} = {6CAC42BD-E266-4241-BCA9-0E104FA66F6E}
+	EndGlobalSection
+EndGlobal

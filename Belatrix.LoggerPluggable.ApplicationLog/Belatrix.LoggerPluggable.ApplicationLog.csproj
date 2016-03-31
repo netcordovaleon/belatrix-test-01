@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38ACFACE-8C46-4F60-9014-F97133336A1B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Belatrix.LoggerPluggable.ApplicationLog</RootNamespace>
+    <AssemblyName>Belatrix.LoggerPluggable.ApplicationLog</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable.Interfaces\Belatrix.LoggerPluggable.Interfaces.csproj">
+      <Project>{66c39ca2-1d0d-4215-bce1-db906f38585e}</Project>
+      <Name>Belatrix.LoggerPluggable.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable.LogManagerConsole\Belatrix.LoggerPluggable.LogManagerConsole.csproj">
+      <Project>{8efebed1-9675-40ec-a2da-703c4fb3fd09}</Project>
+      <Name>Belatrix.LoggerPluggable.LogManagerConsole</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable.LogManagerDataBase\Belatrix.LoggerPluggable.LogManagerDataBase.csproj">
+      <Project>{e9e3b2b7-95a7-4c40-b428-7c58ff7d77a5}</Project>
+      <Name>Belatrix.LoggerPluggable.LogManagerDataBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable.LogManagerFile\Belatrix.LoggerPluggable.LogManagerFile.csproj">
+      <Project>{d9a9961d-f30f-43b1-bb99-12fe41a52bd4}</Project>
+      <Name>Belatrix.LoggerPluggable.LogManagerFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable.Types\Belatrix.LoggerPluggable.Types.csproj">
+      <Project>{3c45ed18-1bfc-42e0-82e3-ef3b61ef623f}</Project>
+      <Name>Belatrix.LoggerPluggable.Types</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Belatrix.LoggerPluggable\Belatrix.LoggerPluggable.csproj">
+      <Project>{092f0499-9839-4e9e-998c-fc2fb48f907b}</Project>
+      <Name>Belatrix.LoggerPluggable</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
